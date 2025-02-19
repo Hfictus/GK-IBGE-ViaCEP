@@ -80,3 +80,18 @@ html, body {
     background-color: #ddd;
 }
 
+.btn {
+    width: 47%;
+    height: 50px;
+    background-color: #ff8400;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
