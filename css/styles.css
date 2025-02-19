@@ -50,3 +50,33 @@ html, body {
     border-radius: 8px;
     padding: 20px;
 }
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: none;
+}
+
+.error-message {
+    margin-top: 5px;
+    color: #faa;
+}
+
+.form-input {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0px 20px;
+    font-size: 20px;
+    border: 0;
+}
+
+.form-input::placeholder {
+    color: #b1b1b1;
+}
+.form-input:disabled {
+    background-color: #ddd;
+}
+
